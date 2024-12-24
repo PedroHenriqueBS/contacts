@@ -7,11 +7,13 @@ import Edit from '../../assets/images/icons/edit.svg';
 import { Link } from "react-router-dom";
 
 import Modal from '../../components/Modal';
+import Loader from "../../components/Loader";
 
 export default function Home(){
   return(
     <Container>
-      <Modal danger />
+      <Loader />
+      {/* <Modal danger /> */}
       <InputSearchContainer>
         <input type="text" placeholder="Pesquisar contato..."/>
       </InputSearchContainer>

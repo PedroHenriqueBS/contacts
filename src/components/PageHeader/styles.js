@@ -2,8 +2,10 @@ import styled from "styled-components";
 
 export const Container = styled.header`
   margin-bottom: 24px;
+  padding: 0 20px;
   
   a {
+    max-width: 100px;
     display: flex;
     align-items: center;
     gap: 10px;

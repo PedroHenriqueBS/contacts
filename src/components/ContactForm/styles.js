@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 export const Form = styled.form`
-
+  padding:0 20px;
 `;
 
 export const ButtonContainer = styled.div`

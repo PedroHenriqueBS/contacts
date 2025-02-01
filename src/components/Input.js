@@ -13,6 +13,7 @@ export default styled.input.withConfig({
   padding: 0 16px;
   font-size: 1rem;
   transition: border-color .3s ease-in;
+  appearance: none;
 
   &:focus {
     border-color: ${({ theme }) => theme.colors.primary.main};
